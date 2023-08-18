@@ -1,0 +1,54 @@
+{
+  "name": "mandelbrot",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  //"postCreateCommand": "./.devcontainer/library-scripts/postCreateCommand.sh",
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Set *default* container specific settings.json values on container create.
+      "settings": {
+        "haskell.manageHLS": "GHCup"
+      },
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+		"haskell.haskell",
+		"maptz.regionfolder",
+		"aaron-bond.better-comments",
+		"alefragnani.Bookmarks",
+		"ms-vscode.cpptools-themes",
+		"streetsidesoftware.code-spell-checker",
+		"adam-bender.commit-message-editor",
+		"mhutchie.git-graph",
+		"donjayamanne.githistory",
+		"GitHub.copilot",
+		"eamodio.gitlens",
+		"oderwat.indent-rainbow",
+		"ms-vscode.live-server",
+		"ritwickdey.LiveServer",
+		"emilast.LogFileHighlighter",
+		"yzhang.markdown-all-in-one",
+		"shd101wyy.markdown-preview-enhanced",
+		"bierner.markdown-mermaid",
+		"PKief.material-icon-theme",
+		"sandcastle.vscode-open",
+		"mushan.vscode-paste-image",
+		"ionutvmi.path-autocomplete",
+		"ms-vscode-remote.vscode-remote-extensionpack",
+		"Wscats.search",
+		"RomanPeshkov.vscode-text-tables",
+		"wayou.vscode-todo-highlight",
+		"Gruntfuggly.todo-tree",
+		"praveencrony.total-lines",
+		"ms-python.python",
+		"ms-vscode.cpptools-extension-pack",
+		"shardulm94.trailing-spaces",
+		"ICS.japanese-proofreading"
+	]
+    }
+  },
+  // Comment out to connect as root instead. To add a non-root user, see: https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "vscode"
+}
